@@ -1,33 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Press+Start+2P&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.hero{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.heading {
+    font-family: "Courier Prime", monospace;
+    font-style: normal;
   }
+
+body{
+    background-color: #022601;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+/* Color Theme Swatches in Hex */
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-1-hex { color: #0DF205; }
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-2-hex { color: #0ABF04; }
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-3-hex { color: #078C03; }
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-4-hex { color: #055902; }
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-5-hex { color: #022601; }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+/* Color Theme Swatches in RGBA */
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-1-rgba { color: rgba(13, 242, 5, 1); }
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-2-rgba { color: rgba(10, 191, 4, 1); }
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-3-rgba { color: rgba(7, 140, 3, 1); }
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-4-rgba { color: rgba(5, 89, 2, 1); }
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-5-rgba { color: rgba(2, 38, 1, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-1-hsla { color: hsla(117, 95, 48, 1); }
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-2-hsla { color: hsla(118, 95, 38, 1); }
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-3-hsla { color: hsla(118, 95, 28, 1); }
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-4-hsla { color: hsla(117, 95, 17, 1); }
+.Hoody-hacker-cybersecurity-green-computer-code-information-security-concept-5-hsla { color: hsla(118, 94, 7, 1); }
