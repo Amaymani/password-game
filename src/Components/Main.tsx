@@ -3,6 +3,7 @@ import Input from './Input';
 import RuleCard1 from './RuleCard1';
 import RuleCard2 from './RuleCard2';
 import RuleCard3 from './RuleCard3';
+import RuleCard4 from './RuleCard4';
 import rules from '@/rules';
 
 const Main = () => {
@@ -18,6 +19,7 @@ const Main = () => {
         <RuleCard1 value={valueFromRule}/>
         <RuleCard2 value={valueFromRule}/>
         <RuleCard3 value={valueFromRule}/>
+        <RuleCard4 value={valueFromRule}/>
         
     </div>
   )

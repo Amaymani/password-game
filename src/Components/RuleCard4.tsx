@@ -5,7 +5,7 @@ interface RuleCardtProps {
   value: string;
 }
 
-const Rules=rules.rule3;
+const Rules=rules.rule4;
 
 const RuleCard3: React.FC<RuleCardtProps>  = ({value}) => { 
   return (

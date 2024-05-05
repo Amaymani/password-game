@@ -22,6 +22,14 @@ const rules = {
             return _.some(input, (char) => /[a-z]/.test(char));
           }
     },
+    rule4:{
+        ruleNo:4,
+        rule:"Password must have any special letter.",
+        ruleCheck:function(str) {
+            const specialCharRegex = /[!@#$%^&*(),.?":{}|<>]/;
+            return _.some(str, (char) => specialCharRegex.test(char));
+          }
+    },
 };
 
 
