@@ -30,6 +30,14 @@ const rules = {
             return _.some(str, (char) => specialCharRegex.test(char));
           }
     },
+    rule5:{
+        ruleNo:5,
+        rule:"Password must have a number.",
+        ruleCheck:function(str) {
+            const specialCharRegex = /[0-9]/;
+            return _.some(str, (char) => specialCharRegex.test(char));
+          }
+    },
 };
 
 

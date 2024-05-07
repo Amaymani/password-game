@@ -5,9 +5,9 @@ interface RuleCardtProps {
   value: string;
 }
 
-const Rules=rules.rule4;
+const Rules=rules.rule5;
 
-const RuleCard4: React.FC<RuleCardtProps>  = ({value}) => { 
+const RuleCard5: React.FC<RuleCardtProps>  = ({value}) => { 
   return (
     <div className='flex justify-center text-mainhead items-center mt-8'>
       <div className='bg-mainhead rounded-xl'>
@@ -18,4 +18,4 @@ const RuleCard4: React.FC<RuleCardtProps>  = ({value}) => {
   )
 }
 
-export default RuleCard4;
+export default RuleCard5;
